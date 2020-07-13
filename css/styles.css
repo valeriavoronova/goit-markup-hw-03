@@ -1,0 +1,348 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
+    --bold-title-color: #212121;
+    --accent-color: #2196F3;
+    --p-text-color: #757575;
+    --main-header-color: #FFFFFF;
+    --mail-phone-bot-color: rgba(255, 255, 255, 0.6);
+    --black-colour:  #000000;
+}
+
+
+body{
+    font-family: var(--main-font);
+    background-color: var(--main-header-color);
+    font-style: normal;
+}
+
+/*шапка*/
+.main-logo{
+    font-family: var(--logo-font);
+    color: var(--black-colour);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+/* identical to box height */
+
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-blue{
+    color: var(--accent-color);
+
+}
+
+.nav-item-active,
+.nav-item-passive{
+    
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+}
+
+.nav-item-passive{
+color: var(--bold-title-color);
+}
+
+.nav-item-active{
+    color: var(--accent-color);
+}
+
+.nav-item-passive:hover,
+.nav-item-passive:focus{
+    color: var(--accent-color);
+}
+
+.adress-item{
+    
+   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
+    color: var(--p-text-color);
+    text-decoration: none;
+    list-style: none;
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.adress-item:hover,
+.adress-item:focus{
+    color: var(--accent-color);
+}
+
+.nav-item-active,
+.nav-item-passive,
+.link{
+    text-decoration: none;
+}
+
+h1{
+    
+    color: var(--main-header-color);
+   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
+    
+}
+
+/*<!--шапка-->*/
+.order-button{
+    
+   
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-header-color);
+    background-color: var(--accent-color);
+}
+
+.order-button:hover,
+.order-button:focus{
+    color: var(--main-header-color);
+}
+
+
+/*<!--особенности-->*/
+.features-title{
+   
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--bold-title-color);
+
+
+}
+
+.features-text{
+    
+    
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: var(--p-text-color);
+}
+
+/*<!--Чем мы занимаемся-->*/
+.what-we-do-title{
+    
+    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--bold-title-color);
+}
+
+.what-we-do-item{
+    
+   
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* color: var(--main-header-color); */
+}
+
+/* NASHA KOMANDA */
+
+.spec-name{
+    
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--bold-title-color);
+}
+
+.prof{
+    
+   
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--p-text-color);
+}
+
+.clients{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--bold-title-color);
+}
+
+/* FOOTER */
+
+.bot-logo{
+    font-family: var(--logo-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--main-header-color);
+    text-decoration: none;
+
+}
+
+/* ADRESSES */
+
+.address{
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-header-color);
+    text-decoration: none;
+}
+
+.mail-phone{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    text-decoration: none;
+    letter-spacing: 0.03em;
+
+    color: var(--mail-phone-bot-color);
+}
+
+b{
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-header-color);
+}
+
+footer{
+    background-color: #2F303A;
+}
+
+/*
+ */
+
+/*PORTFOLIO MAIN*/
+
+/*.all-button{
+    
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-header-color);
+    background-color: var(--accent-color);
+}
+*/
+.proj-type-button:focus,
+.proj-type-button:hover{
+
+    background-color: var(--accent-color);
+    color: var(--main-header-color);
+
+}
+
+.proj-type-button{
+    
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--bold-title-color); 
+}
+
+/*gallery*/
+
+
+.port-proj-title{
+    
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+
+
+    letter-spacing: 0.06em;
+
+    color: var(--bold-title-color);
+
+}
+
+.port-skill{
+
+    
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+
+
+    letter-spacing: 0.03em;
+
+    color: var(--p-text-color);
+}
+
+.proj-descr{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: var(--main-header-color);
+    background-color: var(--accent-color);
+}
