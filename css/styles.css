@@ -8,7 +8,18 @@
     --mail-phone-bot-color: rgba(255, 255, 255, 0.6);
     --black-colour:  #000000;
 }
-
+/*html{
+    box-sizing: border-box;
+}
+*/
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 body{
     font-family: var(--main-font);
@@ -24,8 +35,6 @@ body{
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
-/* identical to box height */
-
     letter-spacing: 0.03em;
     text-decoration: none;
 }
