@@ -8,17 +8,64 @@
     --mail-phone-bot-color: rgba(255, 255, 255, 0.6);
     --black-colour:  #000000;
 }
-/*html{
+html {
     box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+.navigation{
+    display: flex;
+    align-items: center;
 }
-*/
+.list-adress-link{
+    display: flex;
+    /*margin-left: 305px;*/
+}
+.adress-link:not(:last-child){
+    margin-right: 30px;
+}
+
+
+    
+.header-nav-links{
+    display: flex;
+    margin-left: 85px;
+    padding-left: 0px;
+}
+.header-nav-link:not(:last-child){
+    margin-right: 50px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .container{
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+     
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    
+    
+   
+    
+}
+
+
+.list li{
+    outline: 2px solid green;
 }
 
 body{
@@ -37,6 +84,8 @@ body{
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
+    /*margin-right: 85px;
+    margin-top: 24px;*/
 }
 
 .logo-blue{
