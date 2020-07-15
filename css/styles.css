@@ -19,7 +19,11 @@ html {
     margin: 0;
     padding: 0;
   }
-
+/*ШАПКА*/
+.header{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
 .navigation{
     display: flex;
     align-items: center;
@@ -144,6 +148,7 @@ color: var(--bold-title-color);
 .link{
     text-decoration: none;
 }
+/*<!--SECTION-->*/
 
 h1{
     
@@ -155,13 +160,22 @@ h1{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;  
+    margin-bottom: 30px;
     
 }
 
-/*<!--шапка-->*/
+
+
+.main-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: indigo;
+}
 .order-button{
-    
-   
+    min-width: 200px;
+    min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
