@@ -388,6 +388,19 @@ h1{
 
 /* FOOTER */
 
+.footer-container{
+    
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.left-side{
+    
+    margin-right: 69px;
+}
+.right-side{
+    margin-top: 12px;
+}
 .bot-logo{
     font-family: var(--logo-font);
     font-style: normal;
@@ -398,11 +411,14 @@ h1{
     letter-spacing: 0.03em;
     color: var(--main-header-color);
     text-decoration: none;
+    
 
 }
 
 /* ADRESSES */
-
+.footer-adress{
+    margin-top: 20px;
+}
 .address{
    
     font-style: normal;
@@ -412,6 +428,7 @@ h1{
     letter-spacing: 0.03em;
     color: var(--main-header-color);
     text-decoration: none;
+    
 }
 
 .mail-phone{
@@ -435,6 +452,16 @@ b{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-header-color);
+    
+}
+
+.footer-social-icons-list{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-social-icon-item:not(:last-child){
+    margin-right: 10px;
 }
 
 footer{
