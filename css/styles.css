@@ -290,7 +290,11 @@ h1{
 
 /* NASHA KOMANDA */
 .section-background{
-    background-color: rgba(245, 244, 250, 1);
+    
+    padding-top: 94px;
+}
+.section-background-color{
+    color: rgba(245, 244, 250, 1);
 }
 
 .spec-name{
