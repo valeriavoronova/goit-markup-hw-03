@@ -68,10 +68,10 @@ html {
 }
 
 
-.list li{
+/*.list li{
     outline: 2px solid green;
 }
-
+*/
 body{
     font-family: var(--main-font);
     background-color: var(--main-header-color);
@@ -290,13 +290,41 @@ h1{
 
 /* NASHA KOMANDA */
 .section-background{
+    padding-bottom: 94px;
+    padding-top: 94px;
     
+}
+.team-section>ul{
+    padding-bottom: 94px;
+
+}
+.team-section>h2{
     padding-top: 94px;
 }
 .section-background-color{
     background-color: rgba(245, 244, 250, 1);
 }
+.team-member{
+    background-color: var(--main-header-color);
+}
+.team-member>img{
+    margin-bottom: 30px;
+}
 
+.flex-list-social-icons{
+    display: flex;
+    /*justify-content: space-between;*/
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 24px;
+}
+.flex-list-social-icons>li:not(:last-child){
+    margin-right: 10px;
+
+}
+.team-member:not(:last-child){
+    margin-right: 30px;
+}
 .spec-name{
     
    
@@ -308,6 +336,7 @@ h1{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--bold-title-color);
+    margin-bottom: 10px;
 }
 
 .prof{
@@ -322,8 +351,10 @@ h1{
     letter-spacing: 0.03em;
 
     color: var(--p-text-color);
+    margin-bottom: 16px;
 }
 
+/*CLIENTS*/
 .clients{
     font-style: normal;
     font-weight: bold;
@@ -332,6 +363,27 @@ h1{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--bold-title-color);
+    margin-bottom: 50px;
+}
+.clients-list{
+    display: flex;
+    padding-bottom: 94px;
+}
+.clients-list-item{
+    width: 170px;
+    height: 90px;
+    border: groove var(--p-text-color);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.clients-list-item:not(:last-child){
+    margin-right: 30px;
 }
 
 /* FOOTER */
