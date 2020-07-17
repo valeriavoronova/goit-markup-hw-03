@@ -198,6 +198,7 @@ h1{
 
 .section-container{
     padding-top: 94px;
+    padding-bottom: 94px;
 
 }
 /*<!--особенности-->*/
@@ -290,9 +291,10 @@ h1{
 }
 
 /* NASHA KOMANDA */
-.section-background{
+.section-team{
     
     padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 .team-section>ul{
@@ -302,7 +304,7 @@ h1{
 .team-section>h2{
     padding-top: 94px;
 }
-.section-background-color{
+.team-section{
     background-color: rgba(245, 244, 250, 1);
 }
 .team-member{
@@ -431,9 +433,10 @@ h1{
     text-decoration: none;
     
 }
-.adress-list-item{
-    margin-bottom: 9px;
+.features-cont{
+    padding-top: 94px;
 }
+
 .mail-phone{
     
     font-style: normal;
@@ -470,6 +473,10 @@ b{
 footer{
     background-color: #2F303A;
 }
+.adress-list-item{
+    margin-top: 9px;
+}
+
 
 /*
  */
