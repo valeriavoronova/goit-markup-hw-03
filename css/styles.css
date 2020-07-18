@@ -539,6 +539,20 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
+
+.gallery-list-item{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery-list-item:nth-child(3n){
+    margin-right: 0px;
+}
+
+.gallery-list-item:nth-last-child(-n + 3){
+    margin-bottom: 0px;
+}
+
 .port-proj-title{
     
     font-weight: bold;
