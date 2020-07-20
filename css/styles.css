@@ -19,10 +19,10 @@ html {
     margin: 0;
     padding: 0;
   }
-/*ШАПКА*/
+/*header*/
 .header{
-    margin-bottom: 25px;
-    margin-top: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 .navigation{
     display: flex;
@@ -161,6 +161,7 @@ h1{
     letter-spacing: 0.06em;
     text-transform: uppercase;  
     margin-bottom: 30px;
+    margin-top: 0px;
     
 }
 
@@ -208,7 +209,7 @@ h1{
 }
 .features-item{
     width: 270px;
-    height: 251px;
+    
 }
 .features-item:not(:last-child){
     margin-right: 30px;
@@ -220,6 +221,7 @@ h1{
 }
 .features-img{
     margin: 25px 100px;
+    
 }
 
 .features-title{
@@ -270,11 +272,11 @@ h1{
 .what-we-do-item>img{
     display: block;
 }
-.what-we-do-item>div{
+/*.what-we-do-item>div{
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
-}
+}*/
 .what-we-do-text{
     
     text-align: center;
@@ -288,6 +290,7 @@ h1{
     text-transform: uppercase;
 
     color: var(--main-header-color);
+    background-color: rgba(47, 48, 58, 0.8);
 }
 
 /* NASHA KOMANDA */
@@ -319,7 +322,7 @@ h1{
     /*justify-content: space-between;*/
     padding-left: 32px;
     padding-right: 32px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 .flex-list-social-icons>li:not(:last-child){
     margin-right: 10px;
@@ -370,7 +373,7 @@ h1{
 }
 .clients-list{
     display: flex;
-    padding-bottom: 94px;
+   
 }
 .clients-list-item{
     width: 170px;
@@ -388,6 +391,7 @@ h1{
 .clients-list-item:not(:last-child){
     margin-right: 30px;
 }
+
 
 /* FOOTER */
 
@@ -551,6 +555,10 @@ footer{
 
 .gallery-list-item:nth-last-child(-n + 3){
     margin-bottom: 0px;
+}
+
+.gallery-list-img{
+    display: block;
 }
 
 .port-proj-title{
