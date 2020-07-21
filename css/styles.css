@@ -378,7 +378,7 @@ h1{
 .clients-list-item{
     width: 170px;
     height: 90px;
-    border: groove var(--p-text-color);
+    border: solid rgba(175, 177, 184, 1);
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -406,7 +406,7 @@ h1{
     margin-right: 69px;
 }
 .right-side{
-    margin-top: 12px;
+    padding-top: 12px;
 }
 .bot-logo{
     font-family: var(--logo-font);
@@ -562,6 +562,9 @@ footer{
 }
 
 .port-proj-title{
+    padding-top: 20px;
+    padding-left: 23px;
+    padding-right: 23px;
     
     font-weight: bold;
     font-size: 18px;
@@ -571,11 +574,15 @@ footer{
     letter-spacing: 0.06em;
 
     color: var(--bold-title-color);
+   
 
 }
 
 .port-skill{
-
+    margin-top: 4px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 19px;
     
     font-weight: normal;
     font-size: 16px;
@@ -585,8 +592,14 @@ footer{
     letter-spacing: 0.03em;
 
     color: var(--p-text-color);
+
 }
 
+.gallery-text-container{
+    border-left: solid rgba(238, 238, 238, 1);
+    border-right: solid rgba(238, 238, 238, 1);
+    border-bottom: solid rgba(238, 238, 238, 1);;
+}
 .proj-descr{
     font-weight: normal;
     font-size: 18px;
