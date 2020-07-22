@@ -378,7 +378,7 @@ h1{
 .clients-list-item{
     width: 170px;
     height: 90px;
-    border: solid rgba(175, 177, 184, 1);
+    border: solid rgba(175, 177, 184, 1) 1px;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -596,9 +596,9 @@ footer{
 }
 
 .gallery-text-container{
-    border-left: solid rgba(238, 238, 238, 1);
-    border-right: solid rgba(238, 238, 238, 1);
-    border-bottom: solid rgba(238, 238, 238, 1);;
+    border-left: solid rgba(238, 238, 238, 1) 1px;
+    border-right: solid rgba(238, 238, 238, 1) 1px;
+    border-bottom: solid rgba(238, 238, 238, 1) 1px;
 }
 .proj-descr{
     font-weight: normal;
